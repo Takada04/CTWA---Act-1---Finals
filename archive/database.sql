@@ -1,0 +1,11 @@
+-- -- Run this in phpMyAdmin (SQL tab) once.
+-- CREATE DATABASE IF NOT EXISTS archive_db;
+-- USE archive_db;
+
+-- CREATE TABLE IF NOT EXISTS archive_users (
+--   id            INT AUTO_INCREMENT PRIMARY KEY,
+--   name          VARCHAR(120) NOT NULL,
+--   email         VARCHAR(254) NOT NULL UNIQUE,
+--   password_hash VARCHAR(255) NOT NULL,
+--   created_at    TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+-- );
